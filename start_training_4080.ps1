@@ -7,7 +7,7 @@
     [string]$RunDirectory = '',
     [ValidateRange(1, 65536)][int]$BatchSize = 128,
     [ValidateRange(2, 100000)][int]$Epochs = 100,
-    [ValidateRange(0, 128)][int]$Workers = 4,
+    [ValidateRange(0, 128)][int]$Workers = 8,
     [switch]$CheckOnly,
     [switch]$DryRun
 )
@@ -39,6 +39,8 @@ $trainingArguments = @(
     '--lr-scheduler', 'cosineannealinglr', '--lr-warmup-epochs', '1',
     '--lr-warmup-method', 'linear', '--lr-warmup-decay', '0.01', '--lr-min', '0',
     '--disable-snr-filter', '--disable-plot', '--early-stopping-patience', '0',
+    '--validate-every', '2',
+    '--compile',
     '--output-dir', $RunDirectory
 )
 Write-Host "Code: $CodeDirectory"
