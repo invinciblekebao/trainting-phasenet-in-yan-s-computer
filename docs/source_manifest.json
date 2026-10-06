@@ -1,0 +1,119 @@
+{
+  "date": "2026-10-06",
+  "main_source": "D:\\课题\\项目文件\\phasenet++训练\\phasenet_plus_4080_data9_11",
+  "scope": "NPZ/HDF5 training only; no datasets, weights or memory-mapped data code",
+  "files": [
+    {
+      "path": "train.py",
+      "source": "D:\\课题\\项目文件\\phasenet++训练\\phasenet_plus_4080_data9_11\\train.py",
+      "original_sha256": "c241379dccff4cc7303c4d8d85258ac3078c6450a039daf97b0d1fbf499866a7",
+      "packaged_sha256": "393b2dc738ac6c5db257089b60aad36ec1d1e709ad313603b855c04c9c97813b",
+      "modified_in_copy": true
+    },
+    {
+      "path": "utils.py",
+      "source": "D:\\课题\\项目文件\\phasenet++训练\\phasenet_plus_4080_data9_11\\utils.py",
+      "original_sha256": "4be383bff701a9661226e280c7420e1e761531e1c35af22b0393797dea52f470",
+      "packaged_sha256": "4be383bff701a9661226e280c7420e1e761531e1c35af22b0393797dea52f470",
+      "modified_in_copy": false
+    },
+    {
+      "path": "LICENSE",
+      "source": "D:\\课题\\项目文件\\phasenet++训练\\phasenet_plus_4080_data9_11\\LICENSE",
+      "original_sha256": "994c62feb1515c477849efb3d50d16c4e334ebb41cb23ff58e615cf198db1704",
+      "packaged_sha256": "994c62feb1515c477849efb3d50d16c4e334ebb41cb23ff58e615cf198db1704",
+      "modified_in_copy": false
+    },
+    {
+      "path": "requirements.txt",
+      "source": "D:\\课题\\项目文件\\phasenet++训练\\phasenet_plus_4080_data9_11\\requirements.txt",
+      "original_sha256": "065b35a62103299dd1ea33c6136ffadd81dda649fbc69c72c049f1ceb483f0bc",
+      "packaged_sha256": "065b35a62103299dd1ea33c6136ffadd81dda649fbc69c72c049f1ceb483f0bc",
+      "modified_in_copy": false
+    },
+    {
+      "path": "eqnet/__init__.py",
+      "source": "D:\\课题\\项目文件\\phasenet++训练\\phasenet_plus_4080_data9_11\\eqnet\\__init__.py",
+      "original_sha256": "8384e97135c595d3630abc3101ba1b35c4a5c6f3b4028a6ddc7168c86da9e04f",
+      "packaged_sha256": "8384e97135c595d3630abc3101ba1b35c4a5c6f3b4028a6ddc7168c86da9e04f",
+      "modified_in_copy": false
+    },
+    {
+      "path": "eqnet/models/__init__.py",
+      "source": "D:\\课题\\项目文件\\phasenet++训练\\phasenet_plus_4080_data9_11\\eqnet\\models\\__init__.py",
+      "original_sha256": "b7a04f13c7569e7651c11e0e7a8b356a041d529c53a6bc24c3ea47b0144564cc",
+      "packaged_sha256": "ce06615e6d89cbfd01a614c91f199822587f6754dfc84f001de4e47c24f8a560",
+      "modified_in_copy": true
+    },
+    {
+      "path": "eqnet/models/phasenet.py",
+      "source": "D:\\课题\\项目文件\\phasenet++训练\\phasenet_plus_4080_data9_11\\eqnet\\models\\phasenet.py",
+      "original_sha256": "48de383cc49fe9786a9936251f0d4277995380e24c920c36f901a995653cedb0",
+      "packaged_sha256": "48de383cc49fe9786a9936251f0d4277995380e24c920c36f901a995653cedb0",
+      "modified_in_copy": false
+    },
+    {
+      "path": "eqnet/models/phasenet_plus.py",
+      "source": "D:\\课题\\项目文件\\phasenet++训练\\phasenet_plus_4080_data9_11\\eqnet\\models\\phasenet_plus.py",
+      "original_sha256": "de880c44aed6dc86306c96caf92775fc03b1addebd1d73f0190c2f56445c5a59",
+      "packaged_sha256": "de880c44aed6dc86306c96caf92775fc03b1addebd1d73f0190c2f56445c5a59",
+      "modified_in_copy": false
+    },
+    {
+      "path": "eqnet/models/unet.py",
+      "source": "D:\\课题\\项目文件\\phasenet++训练\\phasenet_plus_4080_data9_11\\eqnet\\models\\unet.py",
+      "original_sha256": "6ea01b4b26b6cdd0f1126c7a5041db9e7752a13ef9ed6787526081b5ecc94374",
+      "packaged_sha256": "6ea01b4b26b6cdd0f1126c7a5041db9e7752a13ef9ed6787526081b5ecc94374",
+      "modified_in_copy": false
+    },
+    {
+      "path": "eqnet/models/resnet1d.py",
+      "source": "D:\\课题\\项目文件\\phasenet++训练\\phasenet_plus_4080_data9_11\\eqnet\\models\\resnet1d.py",
+      "original_sha256": "5b76c5b7346ce1da1862c42359f5b0050efedcd8f401866cbc019eff1280c45e",
+      "packaged_sha256": "5b76c5b7346ce1da1862c42359f5b0050efedcd8f401866cbc019eff1280c45e",
+      "modified_in_copy": false
+    },
+    {
+      "path": "eqnet/data/__init__.py",
+      "source": "D:\\课题\\项目文件\\phasenet++训练\\phasenet_plus_4080_data9_11\\eqnet\\data\\__init__.py",
+      "original_sha256": "70c05bdee8365fa78a6b9eebce7c4adec96af054f9a4a874f6c91ce2e12c0324",
+      "packaged_sha256": "1e634d341c8fd885fbf1aa7ba7db6073b5f983faa333423fa7b4d553fcb18316",
+      "modified_in_copy": true
+    },
+    {
+      "path": "eqnet/data/seismic_trace.py",
+      "source": "D:\\课题\\项目文件\\phasenet++训练\\phasenet_plus_4080_data9_11\\eqnet\\data\\seismic_trace.py",
+      "original_sha256": "7fa2244d0bd251ef1c7ad37cdd8db31ee5914cf40fcebbecf74cf86a92640021",
+      "packaged_sha256": "7fa2244d0bd251ef1c7ad37cdd8db31ee5914cf40fcebbecf74cf86a92640021",
+      "modified_in_copy": false
+    },
+    {
+      "path": "eqnet/utils/__init__.py",
+      "source": "D:\\课题\\项目文件\\phasenet++训练\\phasenet_plus_4080_data9_11\\eqnet\\utils\\__init__.py",
+      "original_sha256": "e5520775a379bb382523f12781e69db0342ee7c5bd2c380868f83a54cd4bc826",
+      "packaged_sha256": "505b109a083456739bd747f613412726b04c969b6a91d4221407aa6a5762a649",
+      "modified_in_copy": true
+    },
+    {
+      "path": "eqnet/utils/evaluation.py",
+      "source": "D:\\课题\\项目文件\\phasenet++训练\\phasenet_plus_4080_data9_11\\eqnet\\utils\\evaluation.py",
+      "original_sha256": "7a06358c613f4db66ed01d8e3a2bb8cd560bac56cc974e53e54acaed877ff3c3",
+      "packaged_sha256": "7a06358c613f4db66ed01d8e3a2bb8cd560bac56cc974e53e54acaed877ff3c3",
+      "modified_in_copy": false
+    },
+    {
+      "path": "eqnet/utils/postprocess.py",
+      "source": "D:\\课题\\项目文件\\phasenet++训练\\phasenet_plus_4080_data9_11\\eqnet\\utils\\postprocess.py",
+      "original_sha256": "3bf326d256feb0acf330f2a715a8ab65e53d1dff42af7a5b4e10382c35d3a7f3",
+      "packaged_sha256": "3bf326d256feb0acf330f2a715a8ab65e53d1dff42af7a5b4e10382c35d3a7f3",
+      "modified_in_copy": false
+    },
+    {
+      "path": "eqnet/utils/visualization.py",
+      "source": "D:\\课题\\项目文件\\phasenet++训练\\phasenet_plus_4080_data9_11\\eqnet\\utils\\visualization.py",
+      "original_sha256": "2fea342f54b39b63bf85f2ab965aaae625bf0b57950a860c1bdeab0c6b9436c2",
+      "packaged_sha256": "2fea342f54b39b63bf85f2ab965aaae625bf0b57950a860c1bdeab0c6b9436c2",
+      "modified_in_copy": false
+    }
+  ]
+}

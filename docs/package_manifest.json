@@ -1,0 +1,144 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 78,
+      "sha256": "29d8896601248182dd50e362c48dc20262fcd696288ea00a0036faa49c1b1ff6"
+    },
+    {
+      "path": "configs/train_hdf5.ps1",
+      "bytes": 928,
+      "sha256": "39cc3aa9d0f4c02e3118cbb10af29c158563221bd50c319605992a72a532eefb"
+    },
+    {
+      "path": "configs/train_npz.ps1",
+      "bytes": 811,
+      "sha256": "afca09b3d3aa72aad9be324404bb764708f79e143cdec720f0cb1caabd61ff2f"
+    },
+    {
+      "path": "docs/data_format.md",
+      "bytes": 3668,
+      "sha256": "9184e79996ab0dc25bddc7fad05aa8f34529814ad51460a0f650b150eddf5359"
+    },
+    {
+      "path": "docs/environment_snapshot.json",
+      "bytes": 426,
+      "sha256": "df15502bd79f82bcb8083b378ce68fcf2000e3f1c183ddc80c2ed5d46b404696"
+    },
+    {
+      "path": "docs/source_manifest.json",
+      "bytes": 6486,
+      "sha256": "e9fd4a1060df4f3b630ad2411b63cfce59c5d639bede505cf96c7cc87aa9231c"
+    },
+    {
+      "path": "docs/verification_report.json",
+      "bytes": 1036,
+      "sha256": "198783f60b135cac2fc48a9f9dad2f21550e97e022a8352a390d7c40361a2799"
+    },
+    {
+      "path": "eqnet/__init__.py",
+      "bytes": 75,
+      "sha256": "8384e97135c595d3630abc3101ba1b35c4a5c6f3b4028a6ddc7168c86da9e04f"
+    },
+    {
+      "path": "eqnet/data/__init__.py",
+      "bytes": 56,
+      "sha256": "1e634d341c8fd885fbf1aa7ba7db6073b5f983faa333423fa7b4d553fcb18316"
+    },
+    {
+      "path": "eqnet/data/seismic_trace.py",
+      "bytes": 50406,
+      "sha256": "7fa2244d0bd251ef1c7ad37cdd8db31ee5914cf40fcebbecf74cf86a92640021"
+    },
+    {
+      "path": "eqnet/models/__init__.py",
+      "bytes": 39,
+      "sha256": "ce06615e6d89cbfd01a614c91f199822587f6754dfc84f001de4e47c24f8a560"
+    },
+    {
+      "path": "eqnet/models/phasenet.py",
+      "bytes": 14414,
+      "sha256": "48de383cc49fe9786a9936251f0d4277995380e24c920c36f901a995653cedb0"
+    },
+    {
+      "path": "eqnet/models/phasenet_plus.py",
+      "bytes": 605,
+      "sha256": "de880c44aed6dc86306c96caf92775fc03b1addebd1d73f0190c2f56445c5a59"
+    },
+    {
+      "path": "eqnet/models/resnet1d.py",
+      "bytes": 16828,
+      "sha256": "5b76c5b7346ce1da1862c42359f5b0050efedcd8f401866cbc019eff1280c45e"
+    },
+    {
+      "path": "eqnet/models/unet.py",
+      "bytes": 15240,
+      "sha256": "6ea01b4b26b6cdd0f1126c7a5041db9e7752a13ef9ed6787526081b5ecc94374"
+    },
+    {
+      "path": "eqnet/utils/__init__.py",
+      "bytes": 58,
+      "sha256": "505b109a083456739bd747f613412726b04c969b6a91d4221407aa6a5762a649"
+    },
+    {
+      "path": "eqnet/utils/evaluation.py",
+      "bytes": 6560,
+      "sha256": "7a06358c613f4db66ed01d8e3a2bb8cd560bac56cc974e53e54acaed877ff3c3"
+    },
+    {
+      "path": "eqnet/utils/postprocess.py",
+      "bytes": 15605,
+      "sha256": "3bf326d256feb0acf330f2a715a8ab65e53d1dff42af7a5b4e10382c35d3a7f3"
+    },
+    {
+      "path": "eqnet/utils/visualization.py",
+      "bytes": 29938,
+      "sha256": "2fea342f54b39b63bf85f2ab965aaae625bf0b57950a860c1bdeab0c6b9436c2"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1556,
+      "sha256": "994c62feb1515c477849efb3d50d16c4e334ebb41cb23ff58e615cf198db1704"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8832,
+      "sha256": "663d7e4c6fac12f8bf5a91092f64a9ad36e619660705f0ffaeb0918ffe725117"
+    },
+    {
+      "path": "requirements-runtime.txt",
+      "bytes": 191,
+      "sha256": "830f7aa3b6db5ab7c6e2a6a7b855ec52030c9dbf56b050d91e9ef4fa413f87af"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 79,
+      "sha256": "065b35a62103299dd1ea33c6136ffadd81dda649fbc69c72c049f1ceb483f0bc"
+    },
+    {
+      "path": "run_training.py",
+      "bytes": 6423,
+      "sha256": "25f673b5eb313feef8d83325c5c4ddcb47b453979cf43be1f20f0167507f7de8"
+    },
+    {
+      "path": "scripts/check_data.py",
+      "bytes": 2834,
+      "sha256": "c39c4b8d3c1e13616c4d667d0dfb2f0a8d0356b3658bb82a7333ff9fc3905178"
+    },
+    {
+      "path": "scripts/check_environment.py",
+      "bytes": 2593,
+      "sha256": "246268974d174f209cb45ac61690d5780f4a355f7e3475ce50c089685ae9a3fd"
+    },
+    {
+      "path": "train.py",
+      "bytes": 46428,
+      "sha256": "393b2dc738ac6c5db257089b60aad36ec1d1e709ad313603b855c04c9c97813b"
+    },
+    {
+      "path": "utils.py",
+      "bytes": 16908,
+      "sha256": "4be383bff701a9661226e280c7420e1e761531e1c35af22b0393797dea52f470"
+    }
+  ]
+}

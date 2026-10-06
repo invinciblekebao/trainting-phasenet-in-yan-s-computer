@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+*.pth
+*.pt
+*.npz
+*.h5
+*.hdf5
+*.npy
+runs/
+data/
+wandb/
+.env
+
+# 训练输出与日志
+output/
+logs/
+*.log
+
+# 大数据目录
+70w条diting数据*/

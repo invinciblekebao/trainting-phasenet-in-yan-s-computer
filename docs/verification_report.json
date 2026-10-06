@@ -1,0 +1,28 @@
+{
+  "verified_date": "2026-10-06",
+  "environment": "pytorch2 / Python 3.10.20 / torch 2.11.0+cu130 / RTX 5060 Laptop",
+  "model": "phasenet",
+  "backbone": "unet",
+  "data_source": "six real DiTing traces, four train and two validation",
+  "npz_created_from_real_waveforms": true,
+  "tests": {
+    "hdf5_read": "passed",
+    "npz_read": "passed",
+    "hdf5_training_2_epochs": "passed",
+    "npz_training_2_epochs": "passed",
+    "hdf5_resume": "passed",
+    "npz_resume": "passed",
+    "loss_finite": "passed",
+    "epoch_logs_and_checkpoint_files": "passed",
+    "syntax": "passed",
+    "hdf5_cpu_test_only": "passed",
+    "npz_cpu_test_only": "passed",
+    "powershell_launchers_dry_run": "passed",
+    "cuda_forward_backward_optimizer_update": "passed"
+  },
+  "limits": [
+    "Only six-record smoke tests; no full training",
+    "Target-device dependencies and new data remain to be checked"
+  ],
+  "fixture_directory": "D:\\OneDrive\\文档\\phasenet++训练\\output\\migration_20261006\\verification"
+}
