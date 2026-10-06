@@ -511,6 +511,9 @@ def main(args):
         collate_fn=None,
         # shuffle=True,
         drop_last=True,
+        pin_memory=(args.workers > 0),
+        persistent_workers=(args.workers > 0),
+        prefetch_factor=4 if args.workers > 0 else None,
     )
 
     if dataset_test is not None:
@@ -521,6 +524,9 @@ def main(args):
             num_workers=args.workers,
             collate_fn=None,
             drop_last=False,
+            pin_memory=(args.workers > 0),
+            persistent_workers=(args.workers > 0),
+            prefetch_factor=4 if args.workers > 0 else None,
         )
     else:
         data_loader_test = None
@@ -711,7 +717,7 @@ def main(args):
 
         validation_seconds = None
         pick_metrics = None
-        if validation_enabled:
+        if validation_enabled and (epoch % args.validate_every == 0):
             tmp_time = time.time()
             metric, pick_metrics = evaluate(model, data_loader_test, scaler, args, epoch, len(dataset_test))
             if model_ema:
@@ -723,7 +729,7 @@ def main(args):
 
         improved = False
         current_loss = None
-        if validation_enabled:
+        if validation_enabled and (epoch % args.validate_every == 0):
             current_loss = metric.loss.global_avg
             improved = current_loss < (best_loss - args.early_stopping_min_delta)
             if improved:
@@ -859,6 +865,13 @@ def get_args_parser(add_help=True):
     parser.add_argument("--test-label-list", default="+", type=None, help="test label path")
     parser.add_argument("--test-noise-list", default="+", type=None, help="test noise list")
     parser.add_argument("--test-hdf5-file", default=None, type=str, help="hdf5 file for testing")
+    parser.add_argument(
+        "--validate-every",
+        default=2,
+        type=int,
+        metavar="N",
+        help="run full validation every N epochs (default: 2; set to 1 for every-epoch validation)",
+    )
     parser.add_argument("--dataset", default="", type=str, help="dataset name")
     parser.add_argument("--model", choices=("phasenet", "phasenet_plus"), default="phasenet", type=str, help="model name")
     parser.add_argument("--backbone", default="unet", type=str, help="model backbone")
@@ -890,10 +903,10 @@ def get_args_parser(add_help=True):
     parser.add_argument(
         "-j",
         "--workers",
-        default=4,
+        default=8,
         type=int,
         metavar="N",
-        help="number of data loading workers (default: 16)",
+        help="number of data loading workers (default: 8)",
     )
 
     ## training hyper params
